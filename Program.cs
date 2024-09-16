@@ -1,5 +1,5 @@
 ﻿Random random = new Random();
-int n = 90; // Размер массива
+int n = 10; // Размер массива
 
 // Создаем массив случайных чисел от 1 до 5 без использования цикла
 int[] nums = Enumerable.Range(0, n).Select( int_=> random.Next(1, 4)).ToArray();// Генерация чисел от 1 до 5
